@@ -23,7 +23,7 @@ class Application
          * Potential issue - namespace for Models doesn't work
          * Flourish will look for app\models\users instead of users
          */
-        fORM::mapClassToTable('App\Models\User', 'users');
+        fORM::setClassNamespace('App\\Models\\');
 
         // create a nice message
         fMessaging::create('success', '/', 'Application created!');

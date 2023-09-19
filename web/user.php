@@ -1,8 +1,19 @@
 <?php
 
+use App\Application;
+
 use App\Models\User;
 
 include __DIR__.'/../vendor/autoload.php';
+
+$env = Dotenv\Dotenv::createImmutable(__DIR__.'/../');
+$env->load();
+
+/**
+ * @var Application $application
+ */
+$application = new Application();
+$application->run();
 
 try {
     // fetch user using fActiveRecord model

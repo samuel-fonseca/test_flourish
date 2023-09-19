@@ -74,12 +74,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/samuel-fonseca/flourish-classes.git",
-                "reference": "ed6fdbb59a5aad230cc0ce81ce503417a29bf1c3"
+                "reference": "023aff811723296c6917d187f793a1981a381e40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/samuel-fonseca/flourish-classes/zipball/ed6fdbb59a5aad230cc0ce81ce503417a29bf1c3",
-                "reference": "ed6fdbb59a5aad230cc0ce81ce503417a29bf1c3",
+                "url": "https://api.github.com/repos/samuel-fonseca/flourish-classes/zipball/023aff811723296c6917d187f793a1981a381e40",
+                "reference": "023aff811723296c6917d187f793a1981a381e40",
                 "shasum": ""
             },
             "require": {
@@ -118,7 +118,7 @@
             "support": {
                 "source": "https://github.com/samuel-fonseca/flourish-classes/tree/php8.1"
             },
-            "time": "2023-09-19T18:08:51+00:00"
+            "time": "2023-09-19T19:48:41+00:00"
         },
         {
             "name": "phpoption/phpoption",
