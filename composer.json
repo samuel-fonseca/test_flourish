@@ -1,0 +1,24 @@
+{
+    "name": "samuelfonseca/test_flourish",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sam Fonseca",
+            "email": "samfonseca@imarc.com"
+        }
+    ],
+    "require": {
+        "imarc/flourish": "dev-php8.1",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "repositories": {
+        "imarc/flourish": {
+            "type": "vcs",
+            "url": "git@github.com:samuel-fonseca/flourish-classes.git"
+        }
+    }
+}
