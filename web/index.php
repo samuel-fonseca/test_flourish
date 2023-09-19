@@ -1,7 +1,6 @@
 <?php
 
 use App\Application;
-use App\Models\User;
 
 include __DIR__ . '/../vendor/autoload.php';
 
@@ -14,11 +13,5 @@ $env->load();
 $application = new Application();
 $application->run();
 
-
-$user = new User();
-$user->setName('Sam Fonseca');
-$user->setEmail('samfonseca@test.com');
-$user->setPassword(fCryptography::hashPassword('secret'));
-$user->store();
-
-var_dump($user);
+echo PHP_EOL;
+echo '<h1>Running on PHP '.phpversion().'</h1>';
